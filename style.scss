@@ -1,0 +1,16 @@
+@import "variables";
+
+#galeria {
+    .col-lg-4 {
+        margin: 0 !important;
+        padding: 15px;
+    }
+    img {
+        width: $ancho-imagen;
+        height: 250px;
+        &:hover {
+            border: $estilo-borde;
+        }
+    }
+    
+}
